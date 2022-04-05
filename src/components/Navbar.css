@@ -1,0 +1,30 @@
+.navbar {
+    background-color: white;
+    display: flex;
+    align-items: baseline;
+}
+
+/* .navbar-container {
+    background-color: red;
+} */
+
+.list {
+    list-style-type: none;
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 2rem;
+}
+
+
