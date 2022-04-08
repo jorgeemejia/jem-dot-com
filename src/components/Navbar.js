@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './Navbar.css';
-import img1 from '../images/pkat.png';
+import wink from '../images/pkat.png';
 import { useState } from 'react';
-import img2 from '../images/pkat2.png';
+import noWink from '../images/pkat2.png';
 
 
 
@@ -11,10 +11,16 @@ function Navbar(){
 
     const [logoIsHovered, setLogoIsHovered] = useState(false);
 
+
     function hoverHandler(){
         console.log('Hovered!');
         setLogoIsHovered(true);
     }
+    function hoverHandler2(){
+        console.log('Un Hovered');
+        setLogoIsHovered(false);
+    }
+
 
     return (
         <nav className='navbar'>
@@ -24,7 +30,8 @@ function Navbar(){
                         <Link to="/" className='link'>
                             {/* <img className='logo' src={img1} alt="logo"
                             onMouseEnter={hoverHandler}/> */}
-                            {logoIsHovered ? <img className='logo' src={img2} alt="logo"/>  : <img className='logo' src={img1} alt="logo" onMouseEnter={hoverHandler} /> }
+                            {logoIsHovered ? <img className='logo' src={wink} alt="logo" onMouseLeave={hoverHandler2}/>: 
+                            <img className='logo2' src={noWink} alt="logo" onMouseEnter={hoverHandler} /> }
                         </Link>
                     </li>
                     <li>
