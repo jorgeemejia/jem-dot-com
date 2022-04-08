@@ -4,6 +4,9 @@ import Hero from './components/Hero';
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
+//fonts
+import "./fonts/BOMBFONT TRIAL.ttf";
+
 function App() {
   return (
     <div>

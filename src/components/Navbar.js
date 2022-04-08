@@ -28,8 +28,6 @@ function Navbar(){
                 <ul className='list'>
                     <li>
                         <Link to="/" className='link'>
-                            {/* <img className='logo' src={img1} alt="logo"
-                            onMouseEnter={hoverHandler}/> */}
                             {logoIsHovered ? <img className='logo' src={wink} alt="logo" onMouseLeave={hoverHandler2}/>: 
                             <img className='logo2' src={noWink} alt="logo" onMouseEnter={hoverHandler} /> }
                         </Link>

@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "BOMBFONT";
+  src: local("BOMBFONT TRIAL"),
+  url("./fonts/BOMBFONT\ TRIAL.ttf") format("truetype");
+}
