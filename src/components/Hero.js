@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import can from '../images/can.png';
+import can from '../images/can_2.png';
 import { useState } from 'react';
 
 function Hero(){
