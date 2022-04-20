@@ -1,33 +1,32 @@
-/* .navbar-container {
-    display: flex;
-} */
+.navbar{
+    width: 100vw;
+}
 
 .list {
     list-style-type: none;
     display: flex;
-    gap: 20rem;
+    gap: 5%;
     align-items: center;
 }
 
 .logo {
-    /* height: 100px; */
-    width: 8rem;
+    width: 15rem;
 }
 
 .logo2 {
-    /* height: 100px; */
-    width: 8rem;
+    width: 15rem;
 }
 
 .link {
     color: black;
     text-decoration: none;
     font-family: "BOMBFONT";
-    font-size: 2rem;
+    font-size: 5rem;
 }
 
 
-@media(max-width: 600px) {
+
+/* @media(max-width: 600px) {
 
     .list {
         list-style-type: none;
@@ -51,4 +50,4 @@
         font-size: 1.5rem;
     }
     
-}
+} */

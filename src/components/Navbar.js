@@ -24,22 +24,25 @@ function Navbar(){
 
     return (
         <nav className='navbar'>
-            <div className='navbar-container'>
                 <ul className='list'>
                     <li>
-                        <Link to="/" className='link'>
+                        <Link to="/" className='logos'>
                             {logoIsHovered ? <img className='logo' src={wink} alt="logo" onMouseLeave={hoverHandler2}/>: 
                             <img className='logo2' src={noWink} alt="logo" onMouseEnter={hoverHandler} /> }
                         </Link>
                     </li>
-                    <li>
-                        <Link to="/products" className='link'>Products</Link>
-                    </li>
-                    <li>
-                        <Link to="/services" className='link'>Services</Link>
-                    </li>
+                    {/* <div className='links-container'> */}
+                        <li>
+                            <Link to="/" className='link'>Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/About-Me" className='link'>About Me</Link>
+                        </li>
+                        <li>
+                            <Link to="/Projects" className='link'>Projects</Link>
+                        </li>
+                    {/* </div> */}
                 </ul>
-            </div>
         </nav>
     );
 }
