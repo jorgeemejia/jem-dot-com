@@ -26,22 +26,20 @@ function Navbar(){
         <nav className='navbar'>
                 <ul className='list'>
                     <li>
-                        <Link to="/" className='logos'>
+                        <Link to="/" className='link'>
                             {logoIsHovered ? <img className='logo' src={wink} alt="logo" onMouseLeave={hoverHandler2}/>: 
                             <img className='logo2' src={noWink} alt="logo" onMouseEnter={hoverHandler} /> }
                         </Link>
                     </li>
-                    {/* <div className='links-container'> */}
-                        <li>
-                            <Link to="/" className='link'>Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/About-Me" className='link'>About Me</Link>
-                        </li>
-                        <li>
-                            <Link to="/Projects" className='link'>Projects</Link>
-                        </li>
-                    {/* </div> */}
+                    <li>
+                        <Link to="/" className='link'>Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/about-me" className='link'>About Me</Link>
+                    </li>
+                    <li>
+                        <Link to="/projects" className='link'>Projects</Link>
+                    </li>
                 </ul>
         </nav>
     );
