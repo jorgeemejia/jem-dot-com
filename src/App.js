@@ -1,6 +1,8 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Card from './components/Card';
+import Project from './components/Project';
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
@@ -12,6 +14,7 @@ function App() {
     <div>
         <Navbar/>
         <Hero/>
+        <Project/>
         <Routes>
           <Route path='/' exact />
           <Route path='/products'/>

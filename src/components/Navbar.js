@@ -23,25 +23,29 @@ function Navbar(){
 
 
     return (
-        <nav className='navbar'>
-                <ul className='list'>
-                    <li>
-                        <Link to="/" className='link'>
-                            {logoIsHovered ? <img className='logo' src={wink} alt="logo" onMouseLeave={hoverHandler2}/>: 
-                            <img className='logo2' src={noWink} alt="logo" onMouseEnter={hoverHandler} /> }
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/" className='link'>Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/about-me" className='link'>About Me</Link>
-                    </li>
-                    <li>
-                        <Link to="/projects" className='link'>Projects</Link>
-                    </li>
-                </ul>
-        </nav>
+        <header className='header'>
+                <Link to="/" className='Logos'>
+                    {logoIsHovered ? <img className='wink' src={wink} alt="logo" onMouseLeave={hoverHandler2}/>: 
+                    <img className='noWink' src={noWink} alt="logo" onMouseEnter={hoverHandler} /> }
+                </Link>
+                <nav className='navbar'>
+                    <ul className='list'>
+                        <li>
+                            <Link to="/" className='link'>Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/about-me" className='link'>About Me</Link>
+                        </li>
+                        <li>
+                            <Link to="/projects" className='link'>Projects</Link>
+                        </li>
+                    </ul>
+                </nav>
+                <Link to="/" className='Logos'>
+                    {logoIsHovered ? <img className='wink' src={wink} alt="logo" onMouseLeave={hoverHandler2}/>: 
+                    <img className='noWink' src={noWink} alt="logo" onMouseEnter={hoverHandler} /> }
+                </Link>
+        </header>
     );
 }
 

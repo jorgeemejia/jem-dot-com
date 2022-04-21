@@ -1,19 +1,20 @@
-.navbar{
-    width: 100vw;
-}
-
-.list {
-    list-style-type: none;
+.header {
     display: flex;
-    gap: 5%;
+    justify-content: space-around;
     align-items: center;
 }
 
-.logo {
+.list {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+
+.wink {
     width: 15rem;
 }
 
-.logo2 {
+.noWink {
     width: 15rem;
 }
 
