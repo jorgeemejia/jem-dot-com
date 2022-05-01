@@ -13,7 +13,7 @@ export default function Card(props) {
                     <img className = 'card1' src={props.img1} alt=""/>
                 </div>
                 <div className="flip-card-back">
-                    <img className = 'card1' src={props.img2} alt=""/>
+                    <img className = 'card2' src={props.img2} alt=""/>
                 </div>
             </div>
         </div>

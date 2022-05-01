@@ -4,9 +4,10 @@
     font-size: 10rem;
 }
 
+
 .cards-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     row-gap: 15rem;
     justify-items: center;
     align-items: center;
@@ -14,5 +15,5 @@
 }
 
 .card {
-    width: 30%;
+    width: 100%;
 }

@@ -1,10 +1,14 @@
 import React from 'react';
 import './Project.css';
 // import { useState } from 'react';
-import card from '../images/card.png';
-import card2 from '../images/card2.png';
-import card3 from '../images/card3.png';
-import card4 from '../images/card4.png';
+import discord_card from '../images/discord_card.png';
+import discord_card2 from '../images/discord_card2.png';
+import sql_card from '../images/sql_card.png';
+import sql_card2 from '../images/sql_card2.png';
+import shark_card from '../images/shark_card.png';
+import shark_card2 from '../images/shark_card2.png';
+import web_card from '../images/web_card.png';
+import web_card2 from '../images/web_card2.png';
 import Card from './Card';
 
 export default function Project(){
@@ -14,14 +18,20 @@ export default function Project(){
                 Projects
             </h1>
             <div className='cards-container'>
-                <Card img1={card} img2={card2} />
-                {/* Card component accepts two images. Card component flips them */}
-                {/* https://stackoverflow.com/questions/52999377/react-passing-import-name-as-prop-and-adding-to-image-src */}
-                <img className='card' src={card} alt='card'/>
-                <img className='card' src={card2} alt='card2'/>
-                <img className='card' src={card3} alt='card3'/>
-                <img className='card' src={card4} alt='card4'/>
+                <a className='card' href='https://github.com/jorgeemejia/TF2-Quotes-Bot'>
+                    <Card img1={discord_card} img2={discord_card2}/>
+                </a>
+                <a className='card' href='https://github.com/jorgeemejia/Pharmasoodicals'>
+                    <Card img1={sql_card} img2={sql_card2}/>
+                </a>
+                <a classname='card' href='https://github.com/jorgeemejia/The-Sharks-Lair'>
+                    <Card img1={shark_card} img2={shark_card2}/>
+                </a>
+                <a classname='card' href='https://github.com/jorgeemejia/TF2-Quotes-Bot'>
+                    <Card img1={web_card} img2={web_card2}/>
+                </a>
             </div>
         </div>
     )
 }
+
