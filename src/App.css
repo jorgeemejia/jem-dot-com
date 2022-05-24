@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 } */
+
+.can {
+  margin-top: 7em;
+  animation-duration: 2s;
+  animation-name: slideacross;
+}
+
+@keyframes slideacross {
+  
+  from {
+
+      margin-left: 100%;
+  }
+  50% {
+
+      margin-left: 0%;
+  }
+  to {
+      margin-left: 100%;
+  }
+
+
+}

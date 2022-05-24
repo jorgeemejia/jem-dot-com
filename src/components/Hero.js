@@ -12,10 +12,11 @@ function Hero(){
     }
 
     return(
-        <div className='container'>
-            {animationEnded ? <h1 className='h1'>Jorge Mejia</h1> :
-            <img className='can' src={can} alt="can" onAnimationEnd={animationHandler}/>}
-        </div>
+        // <div className='container'>
+        //     {animationEnded ? <h1 className='h1'>Jorge Mejia</h1> :
+        //     <img className='can' src={can} alt="can" onAnimationEnd={animationHandler}/>}
+        // </div>
+        <h1 className='h1'> Jorge Mejia</h1>
     )
 }
 
