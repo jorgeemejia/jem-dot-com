@@ -1,0 +1,75 @@
+.about-header {
+    color: black;
+    font-family: "BOMBFONT";
+    font-size: 10rem;
+}
+
+.text-box {
+    background-color: grey;
+    display: flex;
+    width: 100%;
+}
+
+.face-side {
+    /* background-color: red; */
+    background-color: grey;
+    /* width: 20%; */
+}
+
+.pkat {
+    height: 15rem;
+    width: 15rem;
+}
+
+.text-side {
+    /* background-color: blue; */
+    background-color: grey;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+.text {
+    color: white; 
+    font-family: "Courier";
+    font-size: 3rem;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: typing 4s steps(60, end); 
+}
+.text2 {
+    color: white; 
+    font-family: "Courier";
+    font-size: 3rem;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: typing 4s steps(60, end); 
+}
+
+
+/* .text {
+    font-size: 3rem;
+    color: white;
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end);
+} */
+
+
+/* @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  } */
+@keyframes typing {
+    from { width: 0; }
+  }
+
+
+
+
