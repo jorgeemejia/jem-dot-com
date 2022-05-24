@@ -25,7 +25,7 @@ function App() {
         // </div>
     <div>
       {!animationEnded ? <img className='can' src={can} alt ='can' onAnimationEnd={animationHandler}/> :
-                          <div>
+                          <div className='site'>
                               <Navbar/>
                               <Hero/>
                               <Project/>
