@@ -4,7 +4,6 @@
     font-size: 2rem;
 }
 
-
 .h1 {
     font-family: "BOMBFONT";
     padding: 0;
@@ -12,41 +11,6 @@
     color: black;
     font-size: 20rem;
     text-align: center;
-    /* animation-duration: 1s;
-    animation-name: fadein; */
-}
-
-.can {
-    margin-top: 7em;
-    animation-duration: 2s;
-    animation-name: slideacross;
-}
-
-@keyframes slideacross {
-    
-    from {
-
-        margin-left: 100%;
-    }
-    50% {
-
-        margin-left: 0%;
-    }
-    to {
-        margin-left: 100%;
-    }
-
-
-}
-
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-    
 }
 
 /* @media(max-width: 600px) {

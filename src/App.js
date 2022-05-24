@@ -23,9 +23,9 @@ function App() {
         //     {animationEnded ? <h1 className='h1'>Jorge Mejia</h1> :
         //     <img className='can' src={can} alt="can" onAnimationEnd={animationHandler}/>}
         // </div>
-    <div>
+    <div className='page'>
       {!animationEnded ? <img className='can' src={can} alt ='can' onAnimationEnd={animationHandler}/> :
-                          <div className='site'>
+                        <div className='site'>
                               <Navbar/>
                               <Hero/>
                               <Project/>
@@ -35,7 +35,7 @@ function App() {
                                 <Route path='/products'/>
                                 <Route path='/services'/>
                               </Routes>
-                          </div>
+                        </div>
     }
     </div>
   );
