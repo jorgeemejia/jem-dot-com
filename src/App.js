@@ -7,11 +7,14 @@ import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { useState } from 'react';
 import can from './images/can_2.png';
+import ReactVisibilitySensor from 'react-visibility-sensor';
+import VisibilitySensor from 'react-visibility-sensor';
 
 //fonts
 import "./fonts/BOMBFONT TRIAL.ttf";
 
 function App() {
+
   const [animationEnded, setAnimationHasEnded] = useState(false);
 
   function animationHandler(){
@@ -19,10 +22,6 @@ function App() {
       setAnimationHasEnded(true);
   }
   return (
-            // <div className='container'>
-        //     {animationEnded ? <h1 className='h1'>Jorge Mejia</h1> :
-        //     <img className='can' src={can} alt="can" onAnimationEnd={animationHandler}/>}
-        // </div>
     <div className='page'>
       {!animationEnded ? <img className='can' src={can} alt ='can' onAnimationEnd={animationHandler}/> :
                         <div className='site'>

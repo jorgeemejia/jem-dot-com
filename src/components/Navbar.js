@@ -4,6 +4,7 @@ import './Navbar.css';
 import wink from '../images/pkat.png';
 import { useState } from 'react';
 import noWink from '../images/pkat2.png';
+import Borger from './Borger';
 
 
 
@@ -41,10 +42,7 @@ function Navbar(){
                         </li>
                     </ul>
                 </nav>
-                <Link to="/" className='Logos'>
-                    {logoIsHovered ? <img className='wink' src={wink} alt="logo" onMouseLeave={hoverHandler2}/>: 
-                    <img className='noWink' src={noWink} alt="logo" onMouseEnter={hoverHandler} /> }
-                </Link>
+                <Borger/>
         </header>
     );
 }
