@@ -1,14 +1,14 @@
 import React from 'react';
 import './Project.css';
 // import { useState } from 'react';
-import discord_card from '../images/discord_card.png';
-import discord_card2 from '../images/discord_card2.png';
-import sql_card from '../images/sql_card.png';
-import sql_card2 from '../images/sql_card2.png';
-import shark_card from '../images/shark_card.png';
-import shark_card2 from '../images/shark_card2.png';
-import web_card from '../images/web_card.png';
-import web_card2 from '../images/web_card2.png';
+import discord_card from '../../images/discord_card.png';
+import discord_card2 from '../../images/discord_card2.png';
+import sql_card from '../../images/sql_card.png';
+import sql_card2 from '../../images/sql_card2.png';
+import shark_card from '../../images/shark_card.png';
+import shark_card2 from '../../images/shark_card2.png';
+import web_card from '../../images/web_card.png';
+import web_card2 from '../../images/web_card2.png';
 import Card from './Card';
 
 export default function Project(){

@@ -1,5 +1,5 @@
 import "./About.css"
-import wink from '../images/pkat.png';
+import wink from '../../images/pkat.png';
 import { useState } from 'react';
 
 export default function About (){

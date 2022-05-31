@@ -1,6 +1,6 @@
 import './Borger.css';
 import { useState } from 'react';
-import  burger  from "../images/borger.png";
+import  burger  from "../../images/borger.png";
 import BorgerMenu from "./BorgerMenu";
 
 

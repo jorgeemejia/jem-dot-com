@@ -1,8 +1,8 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Project from './components/Project';
-import About from './components/About';
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
+import Project from './components/Project/Project';
+import About from './components/About/About';
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { useState } from 'react';

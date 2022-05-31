@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './Navbar.css';
-import wink from '../images/pkat.png';
+import wink from '../../images/pkat.png';
 import { useState } from 'react';
-import noWink from '../images/pkat2.png';
+import noWink from '../../images/pkat2.png';
 import Borger from './Borger';
 
 
