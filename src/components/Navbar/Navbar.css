@@ -25,6 +25,9 @@
     font-size: 5rem;
 }
 
+.borger {
+    cursor: pointer;
+}
 
 /* @media(max-width: 600px) {
 

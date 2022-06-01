@@ -4,11 +4,19 @@ import './Navbar.css';
 import wink from '../../images/pkat.png';
 import { useState } from 'react';
 import noWink from '../../images/pkat2.png';
-import Borger from './Borger';
-
+import  borger  from "../../images/borger.png";
+import borger2 from "../../images/borger2.png";
+import BorgerMenu from "./BorgerMenu";
 
 
 function Navbar(){
+
+    const [clicked, setClick] = useState(false);
+
+    function clickHandler(){
+        setClick(!clicked);
+        console.log("borger click");
+    }
 
     const [logoIsHovered, setLogoIsHovered] = useState(false);
 
@@ -42,7 +50,9 @@ function Navbar(){
                         </li>
                     </ul>
                 </nav>
-                <Borger/>
+                {clicked ? <img className='borger' src={borger2} alt = "" onClick = {clickHandler}/> :
+                        <img className='borger' src = {borger} alt = "" onClick = {clickHandler}/>}
+
         </header>
     );
 }
