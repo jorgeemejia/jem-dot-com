@@ -13,9 +13,9 @@ export default function About (){
     return (
         <div className="about-section">
             <h1 className="about-header">
-                About Me
+                
             </h1>
-            <div className="text-box">
+            <div className="box">
                 <div className="face-side">
                     <img className='pkat' src={wink} alt='pkat'/>
                 </div>
