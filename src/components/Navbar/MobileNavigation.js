@@ -37,10 +37,10 @@ export default function MobileNavigation(){
                     <img className={classes.nowink} src={noWink} alt="logo" onMouseEnter={hoverHandler} /> }
                 </Link>
 
-            <NavLinks/>
-            
-            {clicked ? <img className='borger' src={borger2} alt = "" onClick = {clickHandler}/> :
-                        <img className='borger' src = {borger} alt = "" onClick = {clickHandler}/>}
+            {clicked && <NavLinks/>}
+
+            {clicked ? <img className={classes.borger} src={borger2} alt = "" onClick = {clickHandler}/> :
+                        <img className={classes.borger} src = {borger} alt = "" onClick = {clickHandler}/>}
         </nav>
         
 
