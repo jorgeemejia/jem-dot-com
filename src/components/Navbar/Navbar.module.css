@@ -1,6 +1,15 @@
+.Navbar {
+    top: 0;
+    height: 15rem;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+
+}
+
 .wink {
     width: 15rem;
-    background-color: red;
 }
 
 .nowink {
@@ -15,13 +24,17 @@
 
 }
 
+.link:hover {
+    color:grey;
+}
+
 .borger {
     cursor: pointer;
 }
 
 .Navbar .Navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -41,6 +54,34 @@
 
 
 @media(max-width: 990px){
+    .Navbar {
+        top: 0;
+        height: 6rem;
+        width: 100vw;
+        position: fixed;
+        z-index: 999;
+        background-color: white;
+    }
+
+    .wink {
+        width: 5rem;
+    }
+    
+    .nowink {
+        width: 5rem;
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+        font-family: "BOMBFONT";
+        font-size: 5rem;
+    
+    }
+
+    .borger {
+        width: 3rem;
+    }
     .Navbar .Navigation {
         display: none;
     }
@@ -48,5 +89,17 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+    .Navbar .MobileNavigation .NavLinks{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 5rem;
+        width: 100%;
+        background-color: white;
+    }
+
+    .Navbar .MobileNavigation .NavLinks .link {
+        font-size: 3rem;
     }
 }

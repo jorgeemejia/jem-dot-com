@@ -26,9 +26,9 @@ function App() {
       {!animationEnded ? <img className='can' src={can} alt ='can' onAnimationEnd={animationHandler}/> :
                         <div className='site'>
                               <Navbar/>
-                              <Hero/>
-                              <Project/>
                               <About/>
+                              <Project/>
+                              <Hero/>
                               <Routes>
                                 <Route path='/' exact />
                                 <Route path='/products'/>

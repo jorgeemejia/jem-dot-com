@@ -2,6 +2,7 @@ import wink from '../../images/pkat.png';
 import noWink from '../../images/pkat2.png';
 import { Link } from "react-router-dom";
 import { useState } from 'react';
+import classes from "./Navbar.module.css";
 
 export default function Pkat()
 {
