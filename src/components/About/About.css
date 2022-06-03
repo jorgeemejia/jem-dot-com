@@ -9,25 +9,20 @@
     top: 10rem;
     background-color: grey;
     display: flex;
-    width: 95vw;
-    height: 15rem;
+    width: 50vw;
+    height: 20rem;
     margin: 0 auto;
     border-style: solid;
     border-color: black;
-    border-radius: 2rem;
+    border-width: 0.5rem;
+    /* border-radius: 2rem; */
 }
 
-/* .face-side { */
-    /* background-color: grey; */
-/* } */
-
 .pkat {
-    height: 15rem;
     width: 15rem;
 }
 
 .text-side {
-    /* background-color: grey; */
     display: flex;
     width: 80%;
     flex-direction: column;
@@ -60,48 +55,55 @@
 
   @media(max-width: 990px){
 
-    .text-box {
+    .box {
         position: relative;
-        top: -1rem;
+        top: 1rem;
         background-color: grey;
         display: flex;
-        width: 100vw;
+        width: 95vw;
         height: 10rem;
     }
 
     .pkat {
         height: 5rem;
-        width: 5rem;
+        width: 5.5rem;
     }
 
     .text {
         color: white; 
         font-family: "Courier";
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin: 0;
         white-space: nowrap;
         overflow: hidden;
-        width: 15em;
+        width: 10em;
         animation: typing 4s steps(60, end); 
     }
 
     .text2 {
         color: white; 
         font-family: "Courier";
-        font-size: 1.5rem;
+        font-size: 0.75rem;
         margin: 0;
         white-space: nowrap;
         overflow: hidden;
-        width: 15em;
+        width: 7.5em;
         animation: typing 4s steps(60, end); 
     }
     
     .text-side {
-        background-color: grey;
         display: flex;
         width: 80%;
         flex-direction: column;
+        justify-content: start;
     }
+
+    .face-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
   }
 
 
