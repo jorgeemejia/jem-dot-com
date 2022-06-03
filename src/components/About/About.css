@@ -28,6 +28,13 @@
     flex-direction: column;
     justify-content: start;
 }
+
+.face-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .text {
     color: white; 
     font-family: "Courier";
@@ -65,8 +72,7 @@
     }
 
     .pkat {
-        height: 5rem;
-        width: 5.5rem;
+        width: 5rem;
     }
 
     .text {
