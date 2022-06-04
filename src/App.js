@@ -7,11 +7,11 @@ import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { useState } from 'react';
 import can from './images/can_2.png';
-import ReactVisibilitySensor from 'react-visibility-sensor';
-import VisibilitySensor from 'react-visibility-sensor';
 
 //fonts
 import "./fonts/BOMBFONT TRIAL.ttf";
+import "./fonts/Minecraft.ttf";
+import "./fonts/VCR.ttf";
 
 function App() {
 

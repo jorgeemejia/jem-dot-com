@@ -17,3 +17,16 @@ code {
   src: local("BOMBFONT TRIAL"),
   url("./fonts/BOMBFONT\ TRIAL.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Minecraft";
+  src: local("Minecraft"),
+  url("./fonts/Minecraft.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "VCR";
+  src: local("VCR"),
+  url("./fonts/VCR.ttf") format("truetype");
+}
+

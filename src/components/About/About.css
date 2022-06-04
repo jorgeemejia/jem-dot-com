@@ -4,16 +4,19 @@
     font-size: 10rem;
 }
 
+
+
 .box {
     position: relative;
     top: 10rem;
-    background-color: grey;
+    /* background-color: grey; */
+    background-color: black;
     display: flex;
     width: 50vw;
     height: 20rem;
     margin: 0 auto;
     border-style: solid;
-    border-color: black;
+    border-color: grey;
     border-width: 0.5rem;
     /* border-radius: 2rem; */
 }
@@ -36,9 +39,13 @@
 }
 
 .text {
+    padding-top: 1vh;
     color: white; 
-    font-family: "Courier";
+    font-family: "Minecraft";
+    /* font-family: "VCR"; */
+    /* font-family: "BOMBFONT"; */
     font-size: 3rem;
+    font-size: 1.29vw;
     margin: 0;
     white-space: nowrap;
     overflow: hidden;
@@ -46,9 +53,12 @@
     animation: typing 4s steps(60, end); 
 }
 .text2 {
+    padding-top: 1vh;
     color: white; 
-    font-family: "Courier";
-    font-size: 3rem;
+    /* font-family: "Courier"; */
+    font-family: "Minecraft";
+    /* font-size: 3rem; */
+    font-size: 1.29vw;
     margin: 0;
     white-space: nowrap;
     overflow: hidden;
@@ -62,12 +72,17 @@
 
   @media(max-width: 990px){
 
+    /* @keyframes typing {
+        from { width: 0; }
+        to{width: 110;}
+      } */
+
     .box {
         position: relative;
         top: 1rem;
         background-color: grey;
         display: flex;
-        width: 95vw;
+        width: 85vw;
         height: 10rem;
     }
 
@@ -78,36 +93,44 @@
     .text {
         color: white; 
         font-family: "Courier";
-        font-size: 1rem;
+        font-size: 2.4vw;
         margin: 0;
         white-space: nowrap;
-        overflow: hidden;
-        width: 10em;
+        overflow: invisible;
+        /* overflow: visible; */
+        width: 100%;
         animation: typing 4s steps(60, end); 
+
+        /* the problem is with overflow, overflow doesn't show anything break-after
+        the width, and since the width goes past the box, it stops */
     }
 
     .text2 {
         color: white; 
         font-family: "Courier";
-        font-size: 0.75rem;
+        font-size: 2.4vw;
         margin: 0;
         white-space: nowrap;
         overflow: hidden;
-        width: 7.5em;
+        width: 100%;
+        /* width: 7.5em; */
         animation: typing 4s steps(60, end); 
     }
     
     .text-side {
         display: flex;
-        width: 80%;
+        width: 100%;
         flex-direction: column;
         justify-content: start;
+        background-color: red;
     }
 
     .face-side {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 20%;
+        background-color: blue;
     }
 
   }

@@ -21,7 +21,7 @@ export default function About (){
                 </div>
                 <div className="text-side">
                     <p className="text" onAnimationEnd={animationHandler}>
-                        Hello my name is Jorge Mejia. This is
+                    Hello my name is Jorge Mejia. This is
                     </p>
                     {animationEnded ? <p className="text2">
                     a paragraph about me. I hope it isn't too long.
