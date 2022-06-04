@@ -47,3 +47,25 @@
     width: 14.938rem;
     height: 22.688rem;
   }
+
+  @media(max-width: 990px){
+
+    .flip-card {
+      perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      width: 7rem;
+      height: 11rem;
+    }
+
+    .card1 {
+      width: 7rem;
+      height: 11rem;
+    }
+  
+    .card2 {
+      width: 7rem;
+      height: 11rem;
+    }
+
+
+
+  }

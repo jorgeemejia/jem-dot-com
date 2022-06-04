@@ -10,6 +10,14 @@ export default function About (){
         setAnimationHasEnded(true);
     }
 
+    const [animationEnded2, setAnimationHasEnded2] = useState(false);
+
+    function animationHandler2(){
+        console.log('Animation Ended');
+        setAnimationHasEnded2(true);
+    }
+
+
     return (
         <div className="about-section">
             <h1 className="about-header">
@@ -23,9 +31,15 @@ export default function About (){
                     <p className="text" onAnimationEnd={animationHandler}>
                     Hello my name is Jorge Mejia. This is
                     </p>
-                    {animationEnded ? <p className="text2">
+
+                    {animationEnded ? <p className="text" onAnimationEnd={animationHandler2}>
                     a paragraph about me. I hope it isn't too long.
                     </p> : null}
+
+                    {animationEnded2 ? <p className="text">
+                    here is some more text that's just filler
+                    </p> : null}
+                    
                 </div>
             </div>
         </div>
