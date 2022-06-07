@@ -6,7 +6,8 @@ import yo from '../../images/yo.jpg';
 function Hero(){
 
     return(
-
+        <div>
+        <h1 className={classes.title}>About</h1>
         <div className={classes.about_container}>
             <img className={classes.pic} src={yo} alt=''/>
             <div className={classes.text}>
@@ -19,6 +20,7 @@ function Hero(){
                     of boring stuff like what I like to do in my spare time.
                 </p>
             </div>
+        </div>
         </div>
     )
 }
