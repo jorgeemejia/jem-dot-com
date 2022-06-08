@@ -97,6 +97,7 @@
         top: 5rem;
         width: 100%;
         background-color: white;
+        border-top: 2px solid black;
     }
 
     .Navbar .MobileNavigation .NavLinks .link {
