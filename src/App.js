@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Project from './components/Project/Project';
 import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { useState } from 'react';
@@ -29,6 +30,7 @@ function App() {
                               <About/>
                               <Project/>
                               <Hero/>
+                              <Footer/>
                               <Routes>
                                 <Route path='/' exact />
                                 <Route path='/products'/>

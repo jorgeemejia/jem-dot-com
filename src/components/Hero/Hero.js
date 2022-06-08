@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Hero.module.css';
-import { useState } from 'react';
 import yo from '../../images/yo.jpg';
 
 function Hero(){
