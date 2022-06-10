@@ -8,6 +8,7 @@ import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { useState } from 'react';
 import can from './images/can_2.png';
+// import { HashLink as Link } from 'react-router-hash-link';
 
 //fonts
 import "./fonts/BOMBFONT TRIAL.ttf";

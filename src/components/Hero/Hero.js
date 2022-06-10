@@ -5,7 +5,7 @@ import yo from '../../images/yo.jpg';
 function Hero(){
 
     return(
-        <div>
+        <div id="about-me">
         <h1 className={classes.title}>About</h1>
         <div className={classes.about_container}>
             <img className={classes.pic} src={yo} alt=''/>

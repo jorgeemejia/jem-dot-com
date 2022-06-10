@@ -13,7 +13,7 @@ import Card from './Card';
 
 export default function Project(){
     return(
-        <div className='project-section'>
+        <div className='project-section' id="projects">
             <h1 className='project-header'>
                 Projects
             </h1>
