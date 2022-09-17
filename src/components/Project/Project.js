@@ -13,8 +13,8 @@ import Card from './Card';
 
 export default function Project(){
     return(
-        <div className='project-section' id="projects">
-            <h1 className='project-header'>
+        <div className='project_section' id="projects">
+            <h1 className='project_header'>
                 Projects
             </h1>
             <div className='cards-container'>

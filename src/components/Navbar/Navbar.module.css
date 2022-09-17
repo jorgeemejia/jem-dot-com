@@ -5,6 +5,7 @@
     position: fixed;
     z-index: 999;
     background-color: white;
+    border-bottom: 4px solid #f5f5f5;
 }
 
 .wink {
@@ -18,12 +19,14 @@
 .link {
     color: black;
     text-decoration: none;
-    font-size: 4vw;
+    font-size: 6rem;
     font-family: "BOMBFONT";
 }
 
 .link:hover {
-    color:black;
+    color:grey;
+    transform: scale(1.2);
+
 }
 
 .borger {
@@ -97,7 +100,7 @@
         top: 5rem;
         width: 100%;
         background-color: white;
-        border-top: 2px solid black;
+        border-top: 2px solid #f5f5f5;
     }
 
     .Navbar .MobileNavigation .NavLinks .link {

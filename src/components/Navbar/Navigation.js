@@ -11,10 +11,10 @@ function RegularNav(){
     return (
         <nav className={classes.Navigation}>
             <Pkat/>
-            <a href ="/" className={classes.link}>Home</a>
             <a href ="/#about-me" className={classes.link}>About Me</a>
             <a href ="/#projects" className={classes.link}>Projects</a>
-            <Pkat/>
+            <a href ="/#contact-me" className={classes.link}>Contact Me</a>
+            <div></div>
         </nav>
     );
 }
