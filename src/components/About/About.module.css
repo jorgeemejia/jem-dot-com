@@ -1,4 +1,7 @@
-.title {
+
+
+
+.about_header {
     color: black;
     font-family: "BOMBFONT";
     font-size: 10rem;
@@ -9,29 +12,29 @@
 }
 
 
-.about_container {
+.about_content {
     display: grid;
     position: relative;
     width: 100%;
     grid-template-columns: 1fr 3fr;
 }
 
-.pic {
-    box-shadow: 0 2vw 2vw 0 #00000040;
+.about_image {
+    /* box-shadow: 0 2vw 2vw 0 #00000040; */
     align-self: start;
-    width: 20vw;
+    width: 15rem;
 
     position: relative;
     left: 5%;
 }
 
-.text {
+.about_text {
     font-family: 'Poiret One', cursive;
     font-family: 'Poppins', sans-serif;
     align-self: start;
 }
 
-.h {
+.about_name {
     width: 30%;
     border-bottom: 2px black solid;
 }
@@ -42,7 +45,12 @@
 
 @media(max-width: 990px){
 
-    .title {
+    .about_section {
+        position: relative;
+        top: 4rem;
+    }
+
+    .about_header {
         color: black;
         font-family: "BOMBFONT";
         font-size: 3rem;
@@ -50,19 +58,21 @@
         left: 2%;
         margin-top: 0rem;
         margin-bottom: 0;
+        top: 5rem;
     }
 
-    .about_container {
+    .about_content {
         display: grid;
         position: relative;
         width: 100%;
         grid-template-columns: 1fr 1fr;
+        top: 5rem;
     }
 
-    .pic {
-        box-shadow: 0 2vw 2vw 0 #00000040;
+    .about_image {
+        /* box-shadow: 0 2vw 2vw 0 #00000040; */
         align-self: start;
-        width: 45vw;
+        width: 40vw;
     
         position: relative;
         left: 5%;
@@ -70,9 +80,13 @@
 
     }
 
-    .h {
+    .about_name {
         width:100%;
         border-bottom: 2px black solid;
+    }
+
+    .about_summary {
+        font-size: .5rem;
     }
 
 }

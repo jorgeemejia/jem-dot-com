@@ -1,8 +1,8 @@
-import "./Hero.css"
+import "./About.css"
 import wink from '../../images/pkat.png';
 import { useState } from 'react';
 
-export default function Hero (){
+export default function About (){
     const [animationEnded, setAnimationHasEnded] = useState(false);
 
     function animationHandler(){
@@ -19,20 +19,27 @@ export default function Hero (){
 
 
     return (
-        <div className="hero_section">
+        <div className="about-section">
+            <h1 className="about-header">
+                
+            </h1>
             <div className="box">
+                <div className="face-side">
+                    <img className='pkat' src={wink} alt='pkat'/>
+                </div>
                 <div className="text-side">
                     <p className="text" onAnimationEnd={animationHandler}>
-                    Hi, my name is Jorge. Welcome to my site. 
+                    Hello my name is Jorge Mejia. This is
                     </p>
 
                     {animationEnded ? <p className="text" onAnimationEnd={animationHandler2}>
-                    I'm a Software Engineering Student interested in
+                    a paragraph about me. I hope it isn't too long.
                     </p> : null}
 
                     {animationEnded2 ? <p className="text">
-                    learning and making cool things.
+                    here is some more text that's just filler
                     </p> : null}
+                    
                 </div>
             </div>
         </div>
