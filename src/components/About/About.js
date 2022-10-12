@@ -20,7 +20,7 @@ function About(){
                 <p className={classes.about_summary}>
                 Originally pursuing a Bachelor's in Business, I constantly found myself looking for 
                 field in which I could really challenge myself. In the Fall of 2019 I took an introductory course
-                to computer science and my passion was sparked. Ever since then I have been expanding my knowledge within the 'field' learning new technologies and applying them to projects.
+                to computer science and my passion was sparked. Ever since then I have been expanding my knowledge within the field, learning new technologies and applying them to projects.
                 </p>
                 <p className={classes.about_summary}>
                 In the Fall of 2021 I was given the opportunity to join the board of ACM at CSUF and have been with them till this day.
