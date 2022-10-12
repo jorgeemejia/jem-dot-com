@@ -53,6 +53,28 @@
     display: none;
 }
 
+@media(max-width: 1600px){
+
+        .Navbar {
+            height: 13rem;
+        }
+
+        .wink {
+            width: 14rem;
+        }
+        
+        .nowink {
+            width: 14rem;
+        }
+        
+        .link {
+            color: black;
+            text-decoration: none;
+            font-size: 4rem;
+            font-family: "BOMBFONT";
+        }
+
+    }
 
 
 
